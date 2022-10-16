@@ -8,6 +8,7 @@ public class Player : Character
     [SerializeField] private Rigidbody rb;
     [SerializeField] private float speed;
     [SerializeField] private Joystick joystick;
+
     void Update()
     {
         Moving();
@@ -25,4 +26,5 @@ public class Player : Character
         float moveZ = joystick.Vertical * speed;   
         rb.velocity = new Vector3(moveX,rb.velocity.y,moveZ);
     }
+    
 }

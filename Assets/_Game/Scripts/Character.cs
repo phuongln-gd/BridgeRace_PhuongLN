@@ -2,21 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
+using UnityEditor.SceneManagement;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class Character : MonoBehaviour
 {
-    [SerializeField] private GameObject addBrickPosition;
-    [SerializeField] private GameObject characterBrickPerfab;
-    [SerializeField] private LayerMask stairGround;
-    [SerializeField] private List<GameObject> characterBrickList;
+    [SerializeField] private GameObject addBrickPosition; // vi tri them gach tren lung character
+    //prefabs
+    [SerializeField] private GameObject characterBrickPerfab; // prefab mau gach character
+    //list color player brick 
+    [SerializeField] private List<GameObject> characterBrickList; // danh sach mau gach character
 
-    public MeshRenderer rend;
-    public int currentStage = 0;
+    public MeshRenderer rend; // rend cua character
+    public int currentStage = 0; // tang hien tai cua character
 
-    private List<GameObject> listBrick = new List<GameObject>();
-    private int countBrick = 0;
-
+    private bool onBridge;
+    public bool OnBridge
+    {
+        get { return onBridge; }
+        set { onBridge = value; }
+    } 
+    private List<GameObject> listBrick = new List<GameObject>(); // danh sach gach tren lung player
+    private int countBrick = 0; // so gach tren lung player
+    public int CountBrick
+    {
+        get { return countBrick; }
+        set { countBrick = value; }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +44,7 @@ public class Character : MonoBehaviour
 
     public virtual void OnInit()
     {
+        onBridge = false;
         countBrick = 0;
         characterBrickPerfab = getCharacterBrickPrefab();
     }
@@ -81,5 +95,6 @@ public class Character : MonoBehaviour
         countBrick += 1;
     }
 
-    
+    // Check character in bridge
+
 }

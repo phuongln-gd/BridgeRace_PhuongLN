@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 8943493700780745952}
   - component: {fileID: 4320710563338505297}
   - component: {fileID: 443454842181568516}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RedStair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,5 +142,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de9a35581c0d8f84b9889e5b3dc9c3e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bridgeBrickList: []
   rend: {fileID: 5274891245752711862}

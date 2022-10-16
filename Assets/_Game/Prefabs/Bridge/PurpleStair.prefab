@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7560696777190735198}
   - component: {fileID: 8455462881194066448}
   - component: {fileID: 764616529524253870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PurpleStair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +59,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de9a35581c0d8f84b9889e5b3dc9c3e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bridgeBrickList: []
   rend: {fileID: 7499217979942021270}
 --- !u!1 &8937057784924967270
 GameObject:

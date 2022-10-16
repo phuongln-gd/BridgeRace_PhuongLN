@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6529559474097008714}
   - component: {fileID: 167931833761169159}
   - component: {fileID: 5064190979402609343}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GreenStair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +59,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de9a35581c0d8f84b9889e5b3dc9c3e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bridgeBrickList: []
   rend: {fileID: 2912697323941499991}
 --- !u!1 &8403006199368718413
 GameObject:

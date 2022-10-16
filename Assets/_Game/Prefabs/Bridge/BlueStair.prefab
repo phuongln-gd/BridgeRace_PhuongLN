@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7436606041743352970}
   - component: {fileID: 5462003085283310531}
   - component: {fileID: 4222801938569712272}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BlueStair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
