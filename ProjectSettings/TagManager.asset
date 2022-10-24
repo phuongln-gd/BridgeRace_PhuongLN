@@ -4,15 +4,16 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
+  - Ground
+  - Character
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - BridgeGround
+  - Ground
   - Water
   - UI
-  - StairGround
+  - Stair
   - 
   - 
   - 
