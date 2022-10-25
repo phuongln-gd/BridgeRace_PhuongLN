@@ -13,9 +13,9 @@ public class Character : MonoBehaviour
     [SerializeField] GameObject listBrick;
     [SerializeField] protected LayerMask stairLayer;
 
-    List<GameObject> bricks;
-    protected int brickCount;
-
+    [SerializeField]List<GameObject> bricks;
+    public int brickCount;
+    public int currentStage;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,10 +27,11 @@ public class Character : MonoBehaviour
     {
     }
 
-    public void OnInit()
+    public virtual void OnInit()
     {
         bricks = new List<GameObject>();
         brickCount = bricks.Count;
+        currentStage = 1;
     }
 
     public virtual void BuildBridge()
@@ -68,7 +69,14 @@ public class Character : MonoBehaviour
     }
     internal virtual void RemoveBrick()
     {
-        
+        // loai bo 1 vien gach tren character
+        Debug.Log(brickCount);
+        if (brickCount > 0)
+        {
+            Destroy(bricks[bricks.Count - 1]);
+            bricks.Remove(bricks[bricks.Count - 1]);
+            brickCount -= 1;
+        }
     }
 
 }

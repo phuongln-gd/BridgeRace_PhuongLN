@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8131507960687736479}
+  - component: {fileID: 41276872235525239}
   m_Layer: 0
   m_Name: Bricks
   m_TagString: Untagged
@@ -91,6 +92,84 @@ Transform:
   m_Father: {fileID: 5976400126663627591}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &41276872235525239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2973450054804434279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6aefa50c6d7f7c4b8c2f365b0018ceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bricks:
+  - {fileID: 2851592557886828454}
+  - {fileID: 6305321281326724703}
+  - {fileID: 7090198231446145582}
+  - {fileID: 494298998332467175}
+  - {fileID: 494298996915542906}
+  - {fileID: 7090198230278023104}
+  - {fileID: 6305321281662786361}
+  - {fileID: 2851592557647392250}
+  - {fileID: 2851592558683041872}
+  - {fileID: 6305321280055665437}
+  - {fileID: 7090198231967443858}
+  - {fileID: 494298996732435746}
+  - {fileID: 494298997840025638}
+  - {fileID: 7090198230732746504}
+  - {fileID: 6305321279882757610}
+  - {fileID: 2851592558741909739}
+  - {fileID: 2851592557506429840}
+  - {fileID: 6305321279887313435}
+  - {fileID: 7090198231025802535}
+  - {fileID: 494298997887756354}
+  - {fileID: 494298996511117110}
+  - {fileID: 7090198232039469425}
+  - {fileID: 6305321280882732376}
+  - {fileID: 2851592558641958368}
+  - {fileID: 2851592558481219195}
+  - {fileID: 6305321280498413521}
+  - {fileID: 7090198231562264131}
+  - {fileID: 494298997167488480}
+  - {fileID: 494298998400827337}
+  - {fileID: 7090198230379282848}
+  - {fileID: 6305321281212487873}
+  - {fileID: 2851592558548720768}
+  - {fileID: 2851592558267296003}
+  - {fileID: 6305321281182065343}
+  - {fileID: 7090198230126922211}
+  - {fileID: 494298997039332608}
+  - {fileID: 494298996728330424}
+  - {fileID: 7090198231634794273}
+  - {fileID: 6305321280825328745}
+  - {fileID: 2851592559087071311}
+  - {fileID: 2851592558061491427}
+  - {fileID: 6305321281309663560}
+  - {fileID: 7090198230770763858}
+  - {fileID: 494298997893710465}
+  - {fileID: 494298997813695170}
+  - {fileID: 7090198231561758322}
+  - {fileID: 6305321280090215730}
+  - {fileID: 2851592558632112868}
+  - {fileID: 2851592558736613944}
+  - {fileID: 6305321281567872633}
+  - {fileID: 7090198230758004633}
+  - {fileID: 494298997038008634}
+  - {fileID: 494298998519898894}
+  - {fileID: 7090198231491420879}
+  - {fileID: 6305321281435556501}
+  - {fileID: 2851592558954693609}
+  - {fileID: 2851592558729396106}
+  - {fileID: 6305321281713274513}
+  - {fileID: 7090198231609382866}
+  - {fileID: 494298998423102714}
+  listBrickPrefabs:
+  - {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  - {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  - {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  - {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
 --- !u!1 &4347553146209974596
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,11 +258,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924872469322189 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864167595394632}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198231025802535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864167595394632}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864167597958102
@@ -193,6 +281,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage (13)
@@ -243,6 +335,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592558954693609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864167597958102}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227200350537061 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -255,6 +352,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage (9)
@@ -305,6 +406,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592559087071311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864167733989488}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227200213432003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -321,6 +427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -367,6 +477,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298997167488480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864167737967465}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510369090545552 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -427,11 +542,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485817926307358 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864167762529323}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321280498413521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864167762529323}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864167806492597
@@ -441,6 +565,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage (14)
@@ -491,6 +619,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592558729396106 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864167806492597}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227200039254278 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -503,6 +636,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage (3)
@@ -553,6 +690,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592558741909739 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864167810748628}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227200034993767 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -565,6 +707,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage (12)
@@ -615,6 +761,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592558736613944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864167816069639}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227200031728820 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -627,6 +778,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage (2)
@@ -677,6 +832,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592558683041872 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864167852806255}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227200093566684 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -737,11 +897,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924872417545924 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864167879430465}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198231446145582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864167879430465}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864167894251443
@@ -755,6 +924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -801,6 +974,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298997038008634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864167894251443}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510368929878858 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -817,6 +995,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -863,6 +1045,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298997039332608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864167895024521}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510368929097584 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -923,11 +1110,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924872406361637 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864167935326624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198231491420879 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864167935326624}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168023434739
@@ -941,6 +1137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -987,6 +1187,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298996915542906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864168023434739}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510369878819082 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -1047,11 +1252,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924871987450680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864168053279933}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198231609382866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864168053279933}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168054701636
@@ -1061,6 +1275,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage (6)
@@ -1111,6 +1329,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592558481219195 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864168054701636}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227200832248055 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -1171,11 +1394,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924871994020811 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864168059685966}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198231634794273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864168059685966}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168129264925
@@ -1233,11 +1465,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924871929176728 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864168129264925}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198231561758322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864168129264925}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168129758508
@@ -1295,11 +1536,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924871929715369 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864168129758508}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198231562264131 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864168129758508}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168154412744
@@ -1357,11 +1607,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485816975488253 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864168154412744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321280090215730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864168154412744}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168162356703
@@ -1371,6 +1630,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage (5)
@@ -1421,6 +1684,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592558641958368 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864168162356703}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227200658557804 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -1433,6 +1701,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage (11)
@@ -1483,6 +1755,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592558632112868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864168172171995}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227200681219176 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -1499,6 +1776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -1545,6 +1826,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298996728330424 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864168172799537}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510369725129416 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -1605,11 +1891,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485816942985938 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864168189051111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321280055665437 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864168189051111}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168202085291
@@ -1623,6 +1918,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -1669,6 +1968,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298996732435746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864168202085291}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510369704363858 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -1681,6 +1985,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage (7)
@@ -1731,6 +2039,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592558548720768 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864168255634623}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227200764484108 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -1743,6 +2056,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage (8)
@@ -1793,6 +2110,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592558267296003 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864168285358396}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227200500952975 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -1853,11 +2175,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485817446820820 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864168357308897}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321279887313435 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864168357308897}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168361928208
@@ -1915,11 +2246,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485817451439141 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864168361928208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321279882757610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864168361928208}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168425370047
@@ -1933,6 +2273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -1979,6 +2323,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298996511117110 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864168425370047}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510369476760902 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -2039,11 +2388,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924871853602203 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864168456104478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198232039469425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864168456104478}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168528654589
@@ -2101,11 +2459,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924871791931256 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864168528654589}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198231967443858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864168528654589}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168561909127
@@ -2119,6 +2486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 52
@@ -2165,6 +2536,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298998519898894 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864168561909127}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510368270612862 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -2177,6 +2553,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage
@@ -2227,6 +2607,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592557886828454 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864168665894809}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227201426942250 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -2287,11 +2672,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485816459665246 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864168678415723}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321281713274513 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864168678415723}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168690913932
@@ -2349,11 +2743,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924873766128905 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864168690913932}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198230126922211 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864168690913932}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168719980910
@@ -2367,6 +2770,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2413,6 +2820,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298998332467175 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864168719980910}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510368108346775 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -2473,11 +2885,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485816409488118 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864168728869059}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321281662786361 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864168728869059}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168742794460
@@ -2487,6 +2908,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage (10)
@@ -2537,6 +2962,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592558061491427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864168742794460}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227201252495983 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -2553,6 +2983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -2599,6 +3033,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298998400827337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864168779940160}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510368052700601 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -2615,6 +3054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -2661,6 +3104,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298998423102714 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864168793315955}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510368030949002 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -2721,11 +3169,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485816856655798 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864168840525187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321281567872633 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864168840525187}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168842017967
@@ -2783,11 +3240,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924873313051434 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864168842017967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198230278023104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864168842017967}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168905264581
@@ -2797,6 +3263,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage (1)
@@ -2847,6 +3317,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592557647392250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864168905264581}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227201120463734 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -2907,11 +3382,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924873481782602 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864168943409871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198230379282848 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864168943409871}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864168973367663
@@ -2969,11 +3453,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485816720669530 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864168973367663}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321281435556501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864168973367663}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864169064928677
@@ -3031,11 +3524,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485816745547664 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864169064928677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321281326724703 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864169064928677}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864169082471090
@@ -3093,11 +3595,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485816057888903 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864169082471090}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321281309663560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864169082471090}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864169179167547
@@ -3155,11 +3666,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485816088164622 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864169179167547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321281212487873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864169179167547}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864169226322245
@@ -3217,11 +3737,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485815933961072 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864169226322245}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321281182065343 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864169226322245}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864169242044079
@@ -3235,6 +3764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -3281,6 +3814,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298997840025638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864169242044079}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510368664207958 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -3297,6 +3835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -3343,6 +3885,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298997813695170 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864169266048075}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510368640207026 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -3359,6 +3906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -3405,6 +3956,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298997893710465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864169286827016}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510368611178737 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -3417,6 +3973,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8131507960687736479}
     m_Modifications:
+    - target: {fileID: 6794556496045068219, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
       propertyPath: m_Name
       value: RedBrickStage (4)
@@ -3467,6 +4027,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+--- !u!1 &2851592557506429840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7540306067171778623, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
+  m_PrefabInstance: {fileID: 5707864169297912751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3842227201802568988 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8819241521961739955, guid: 815eabfdbbcda4d41b8d1a4234b429e0, type: 3}
@@ -3483,6 +4048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBrickStage (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7022251033515660497, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     - target: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -3529,6 +4098,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+--- !u!1 &494298997887756354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326195307750112905, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
+  m_PrefabInstance: {fileID: 5707864169330661067}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3538510368571404850 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9091985168500942073, guid: b0ea30203966f1f449650ce84ff43163, type: 3}
@@ -3589,11 +4163,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924872824491192 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864169359921981}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198230770763858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864169359921981}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864169433052263
@@ -3651,11 +4234,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924872763436002 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864169433052263}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198230732746504 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864169433052263}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864169475083510
@@ -3713,11 +4305,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrickStage (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011108705109164113, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
 --- !u!4 &5611924872738165619 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 204887155154280325, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
+  m_PrefabInstance: {fileID: 5707864169475083510}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7090198230758004633 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3265982199917255535, guid: fb18df07955bc2f4e8e57e60ab845e14, type: 3}
   m_PrefabInstance: {fileID: 5707864169475083510}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864169525726882
@@ -3775,11 +4376,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485816166255767 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864169525726882}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321280882732376 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864169525726882}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5707864169566775187
@@ -3837,11 +4447,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleBrickStage (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5612859243695133191, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 41276872235525239}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
 --- !u!4 &4707485816240235942 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1036445087858770485, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
+  m_PrefabInstance: {fileID: 5707864169566775187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6305321280825328745 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781007026138850298, guid: 15f33e1e1d63ca545bc6c1e5684ecd20, type: 3}
   m_PrefabInstance: {fileID: 5707864169566775187}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8531267294554700999

@@ -5,8 +5,15 @@ using UnityEngine;
 public class BrickStage : MonoBehaviour
 {
     public MeshRenderer rend;
+    public Stage stage;
 
-
+    private void Awake()
+    {
+        stage = FindObjectOfType<Stage>();
+    }
+    public void OnInit()
+    {
+    }
     public void OnDespawn()
     {
         Destroy(gameObject);
@@ -18,8 +25,9 @@ public class BrickStage : MonoBehaviour
             Character character = other.GetComponent<Character>();
             if (character.rend.material.color == rend.material.color)
             {
-                OnDespawn();
                 character.AddBrick();
+                stage.SpawnBrickAgain(gameObject.transform.position,rend.material.color);
+                OnDespawn();
             }
         }
     }

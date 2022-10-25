@@ -2,17 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IState : MonoBehaviour
+public interface IState
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public void OnEnter(Bot bot);
+    public void OnExecute(Bot bot);
+    public void OnExit(Bot bot);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
